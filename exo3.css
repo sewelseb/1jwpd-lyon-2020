@@ -1,0 +1,31 @@
+/* html {
+    color: white;
+} */
+
+header {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button{
+    padding: 30px;
+    text-align: center;
+}
+
+.flex-icone{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;;
+}
+
+@media screen and (max-width: 915px) {
+    header {
+        flex-direction: column;
+    }
+
+    .flex-icone{
+        justify-content: space-around;
+    }
+}
